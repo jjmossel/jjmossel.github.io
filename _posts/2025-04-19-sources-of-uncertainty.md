@@ -3,6 +3,7 @@ title: Sources of uncertainty
 date: 2025-04-19
 categories: [Introduction]
 tags: []  
+math: true
 ---
 
 
