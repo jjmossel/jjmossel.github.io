@@ -29,6 +29,7 @@ While it is clear that in most ML problems we (indirectly) have to deal with the
 ## Illustration of model and data uncertainty
 In this simplified example, we assume that our model family contains the true function $f$. When we increase the number of samples we see that the *model uncertainty* gradually goes to zero while the *data uncertainty* and as a result the *total uncertainty* converges to a finite value.
 
+{% include plotly_plots/uncertainty_sources.html%}
 
 ## Further Reading
 * [*Aleatoric and epistemic uncertainty in machine learning: an introduction to concepts and methods* - E. Hüllermeier & W. Waegeman (2021)](https://link.springer.com/article/10.1007/s10994-021-05946-3)
