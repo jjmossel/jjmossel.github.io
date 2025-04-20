@@ -16,7 +16,7 @@ timezone:
 
 title: Uncertainty Quantification for ML # the main title
 
-tagline: Explainers for various Uncertainty Quantification techniques # it will display as the subtitle
+tagline: Uncertainty Quantification for ML with interactive examples # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Uncertainty Quantification for ML with interactive examples
