@@ -99,7 +99,7 @@ When making prediction for new $$\tilde{X}$$ we can construct a confidence inter
 
 $$
 \begin{equation}
-    [\hat{y} \pm t_{1-\alpha/2, n-p} \sqrt{\hat{\sigma}^2 \tilde{X} (X^TX)^{-1} \tilde{X}^T }]
+    \left[\hat{y} \pm t_{1-\alpha/2, n-p} \sqrt{\hat{\sigma}^2 \tilde{X} (X^TX)^{-1} \tilde{X}^T }\right]
     \label{eq:ci_interval}
 \end{equation}
 $$
@@ -108,7 +108,7 @@ with $$t_{1-\alpha/2, n-p}$$ the $$t-$$value. The frequentist interpretation is 
 
 $$
 \begin{equation}
-    [\hat{y} \pm t_{1-\alpha/2, n-p} \sqrt{\hat{\sigma}^2 (1+ \tilde{X} (X^TX)^{-1} \tilde{X}^T) }]
+    \left[\hat{y} \pm t_{1-\alpha/2, n-p} \sqrt{\hat{\sigma}^2 (1+ \tilde{X} (X^TX)^{-1} \tilde{X}^T) }\right]
     \label{eq:pi_interval}
 \end{equation}
 $$
