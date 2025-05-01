@@ -2,7 +2,7 @@
 title: Sources of uncertainty
 date: 2025-04-19
 categories: [Introduction]
-tags: []  
+tags: [epistemic_uncertainty, aleatoric_uncertainty]  
 math: true
 ---
 
