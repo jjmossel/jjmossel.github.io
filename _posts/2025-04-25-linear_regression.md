@@ -12,7 +12,7 @@ $$
 y =  X  \beta + \epsilon
 $$
 
-with $$y$$ an $$n-$$dimensional target vector, $$X$$ an $$n \times p$$ feature matrix and $$\epsilon$$ an $$n-$$dimensional vector of random variables repressenting the noise. We make the (classical) Guass-Markov assumptions about the errors $$\epsilon$$:
+with $$y$$ an $$n-$$dimensional target vector, $$X$$ an $$n \times p$$ feature matrix and $$\epsilon$$ an $$n-$$dimensional vector of random variables representing the noise. We make the (classical) Gauss-Markov assumptions about the errors $$\epsilon$$:
 
 * **zero mean**: $$\mathbb{E}[\epsilon]=0$$
 * **spherical errors** :$$\text{Var}(\epsilon) = \sigma^2 I$$ with $$I$$ the $$n \times n$$ identity matrix.
@@ -128,7 +128,7 @@ prediction_summary
 ```
 
 ## Illustration of model and data uncertainty
-In this simplified example, we assume that our model family contains the true function $$f$$. When we increase the number of samples we see that the *model uncertainty* respresented by the confidence band $$\eqref{eq:ci_interval}$$ gradually goes to zero while the *data uncertainty* and as a result the *total uncertainty* $$\eqref{eq:pi_interval}$$ converges to a fixed width interval.
+In this simplified example, we assume that our model family contains the true function $$f$$. When we increase the number of samples we see that the *model uncertainty* represented by the confidence band $$\eqref{eq:ci_interval}$$ gradually goes to zero while the *data uncertainty* and as a result the *total uncertainty* $$\eqref{eq:pi_interval}$$ converges to a fixed width interval.
 
 {% include plotly_plots/uncertainty_sources.html%}
 *Move the slider to see what the effect of increasing the sample size is on the model and data uncertainty.*
