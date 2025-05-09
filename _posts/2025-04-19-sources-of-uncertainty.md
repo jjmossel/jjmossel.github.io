@@ -39,6 +39,17 @@ In this simplified example, we assume that our model family contains the true fu
 
 The above example was created based on a ordinary least squares problem, see [Linear Regression Example]({% post_url 2025-04-25-linear_regression %}).
 
+## Uncertainty Quantification in Bayesian Modelling
+Bayesian modelling is a natural way to quantify uncertainty, since it obtains both the *posterior distribution* for the model parameters and the  *posterior predictive distribution* for the predictions. Using the law of *Total Variance* we can decompose the variance (conditioned on $$X$$) as follows.
+
+$$
+\begin{equation}
+\text{Var}_{total}
+    = \underbrace{\mathbb{E}_{\mathcal{P}_{\theta}} \left[ \text{Var}(y|X,\theta)  \right]}_{\text{aleatoric}}
+    + \underbrace{\text{Var}_{\mathcal{P}_{\theta}} \left( \mathbb{E}[y|X,\theta] \right)}_{\text{epistemic}}
+\end{equation}
+$$
+
 ## Further Reading
 * [*Aleatoric and epistemic uncertainty in machine learning: an introduction to concepts and methods* - E. Hüllermeier & W. Waegeman (2021)](https://link.springer.com/article/10.1007/s10994-021-05946-3)
 
